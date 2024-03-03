@@ -19,7 +19,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public ResponseBase AddMember(AddMemberRequest request)
         {
-            ResponseBase response = new ResponseBase();
+            ResponseBase response = new ResponseBase(); 
 
             Member member = new Member()
             {
