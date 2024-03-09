@@ -7,9 +7,7 @@ using RequestTypes;
 
 namespace WebApi.Controllers
 {
-    [Route("[controller]/[action]")]
-    [ApiController]
-    public class MemberController : ControllerBase
+    public class MemberController : BaseController
     {
         MemberRepository _memberRepository;
         public MemberController(MemberRepository memberRepository)
